@@ -1,0 +1,9 @@
+Task programming is a programming paradigm that focuses on breaking down a program into a set of independent, self-contained tasks or units of work that can be executed concurrently or in parallel.
+
+In task programming, each task is designed to perform a specific function or subtask, and it can run independently of other tasks. Tasks are typically lightweight and have minimal dependencies on other tasks or the overall program structure.
+
+Task programming allows for a more efficient use of resources, such as processors or threads, by maximizing concurrency and minimizing idle time. It can also simplify the design and implementation of complex programs by breaking them down into smaller, more manageable tasks.
+
+Task programming can be used in a wide range of applications, such as scientific simulations, multimedia processing, and web server applications. It is often implemented using programming frameworks or libraries that provide support for task creation, scheduling, and synchronization, such as OpenMP, TBB, or Cilk.
+
+Overall, task programming is a powerful technique for improving the performance and scalability of programs, especially on modern multi-core or distributed systems, but it requires careful design and implementation to ensure correct and efficient execution.

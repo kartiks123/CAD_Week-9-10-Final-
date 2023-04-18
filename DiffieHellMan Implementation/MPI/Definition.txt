@@ -1,0 +1,7 @@
+MPI stands for Message Passing Interface, which is a standardized interface specification that defines the communication protocol used in parallel computing. It provides a way for multiple processes to communicate and exchange data with each other in a distributed computing environment.
+
+MPI was developed by a group of researchers in the early 1990s and is now widely used in high-performance computing (HPC) systems for scientific and engineering applications.
+
+MPI defines a set of functions, procedures, and protocols that enable communication between processes running on different nodes of a distributed system. The messages are passed between the processes via a network, and MPI provides a way to manage the message passing and synchronization between the processes.
+
+MPI is a portable and language-independent standard, which means that it can be implemented in a wide range of programming languages and can run on various types of hardware and operating systems. This makes MPI a popular choice for scientific computing applications that require high-performance parallel processing.
