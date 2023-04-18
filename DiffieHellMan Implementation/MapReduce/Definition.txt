@@ -1,0 +1,10 @@
+/*
+The above code uses the Diffie-Hellman key exchange algorithm to establish a shared secret key between the sender and receiver, which is then used to encrypt and
+decrypt the text messages. The `DiffieHellmanMapper` class generates a random prime number `p`, a primitive root `g` of `p`, and a private key `a`, and then sends
+the public key `A = g^a mod p` to the `DiffieHellmanReducer` class. The reducer generates another private key `b` and computes the shared secret key `S = A^b mod p`
+using the received public key `A`. The shared secret key is then sent back to the mapper class for encryption/decryption.
+To use this code, we can run the following command in your terminal:
+$ hadoop jar diffiehellman.jar DiffieHellmanMapReduce input.txt output
+Where `input.txt` is the input file containing the text to be encrypted/decrypted, and `output` is the output directory where the encrypted/decrypted text will be
+saved.
+*/
